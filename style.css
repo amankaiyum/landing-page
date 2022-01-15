@@ -8,6 +8,7 @@ body {
     font-family: "Roboto", sans-serif;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 }
 
 .header {
@@ -47,6 +48,10 @@ ul {
     max-width: 400px;
 }
 
+.subtext {
+    margin-bottom: 10px;
+}
+
 .placeholder {
     background-color: grey;
     height: 150px;
@@ -59,7 +64,6 @@ h1 {
 
 button {
     padding: 7px 25px;
-    margin-top: 10px;
     background-color: #3882F6;
     color: white;
     border-radius: 5px;
@@ -81,7 +85,7 @@ button {
 
 .title-text {
     font-size: 36px;
-    font-weight: 700;
+    font-weight: 800;
     color: #1F2937;
 }
 
@@ -94,3 +98,56 @@ button {
     max-width: 150px;
     color: #1F2937;
 }
+
+.message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 60px;
+}
+
+.quote {
+    width: 700px;
+    font-style: italic;
+    font-size: 30px;
+    color: #1F2937;
+}
+
+.author {
+    margin-left: 600px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:30px 60px;
+    background-color: #3882F6;
+    margin: 20px 600px;
+    min-width: 600px;
+    align-self: center;
+    border-radius: 5px;
+    gap: 100px;
+}
+
+.container-three {
+    display: flex;
+    flex-direction: column;
+} 
+
+.sign-up .text,
+.title-signup {
+    max-width: 600px;
+    color: white;
+}
+
+.sign-up .buttons {
+    min-width: 100px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
